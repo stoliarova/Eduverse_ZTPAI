@@ -21,16 +21,16 @@ public class Lesson {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long lessonId;
 
-    @Column(nullable = false)
+    @Column()
     private Integer lessonNumber;
 
-    @Column(nullable = false, length = 255)
+    @Column()
     private String title;
 
-    @Column(length = 5000)
-    private String contentTypes;  // Could be JSON or delimited string if multiple content types are used
+    @Column()
+    private String contentTypes;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne()
     @JoinColumn(name = "courseId", nullable = false)
     private Course course;
 }

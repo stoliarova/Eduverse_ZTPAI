@@ -22,9 +22,9 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long categoryId;
 
-    @Column(nullable = false, length = 255)
+    @Column()
     private String name;
 
-    @ManyToMany(mappedBy = "categories")
+    @ManyToMany()
     private Set<Course> courses;
 }

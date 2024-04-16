@@ -12,9 +12,9 @@ public class EduverseApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EduverseApplication.class, args);
 	}
-	@GetMapping("/root")
-	public String apiRoot() {
-		return "Hello World!";
-	}
+	//@GetMapping("/root")
+	//public String apiRoot() {
+		//return "Hello World!";
+	//}
 
 }

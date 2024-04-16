@@ -24,6 +24,6 @@ public class Language {
     @Column(nullable = false, length = 255)
     private String name;
 
-    @ManyToMany(mappedBy = "languages")
+    @ManyToMany()
     private Set<Course> courses;
 }

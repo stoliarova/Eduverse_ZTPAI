@@ -20,10 +20,10 @@ public class Price {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long priceId;
 
-    @Column(nullable = false)
+    @Column()
     private Double amount;
 
-    @Column(length = 3)
+    @Column()
     private String currency;
 
     private Double discount;
