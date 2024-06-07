@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+
+        p,
+        li,
+        ul,
+        pre,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        figure,
+        blockquote,
+        figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button,
+        select {
+            text-transform: none;
+        }
+
+        button,
+        [type="button"],
+        [type="reset"],
+        [type="submit"] {
+            -webkit-appearance: button;
+        }
+
+        button::-moz-focus-inner,
+        [type="button"]::-moz-focus-inner,
+        [type="reset"]::-moz-focus-inner,
+        [type="submit"]::-moz-focus-inner {
+            border-style: none;
+            padding: 0;
+        }
+
+        button:-moz-focus,
+        [type="button"]:-moz-focus,
+        [type="reset"]:-moz-focus,
+        [type="submit"]:-moz-focus {
+            outline: 1px dotted ButtonText;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-theme-neutral-dark);
+            background-color: var(--dl-color-theme-neutral-light);
+
+            fill: var(--dl-color-theme-neutral-dark);
+        }
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        data-tag="font" />
+    <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+</head>
+
+<body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+        <link href="./index.css" rel="stylesheet" />
+
+        <div class="course-page-container">
+            <div class="course-page-course-page">
+                <div class="course-page-container01">
+                    <span class="course-page-text">
+                        <span>UI/UX Design Course</span>
+                    </span>
+                    <span class="course-page-text02">
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                            ipsum suspendisse ultrices gravida. Risus commodo viverra
+                            maecenas accumsan lacus vel facilisis consectetur adipiscing
+                            elit.
+                        </span>
+                        <br />
+                        <span></span>
+                    </span>
+                </div>
+                <div class="course-page-container02">
+                    <button class="course-page-button">
+                        <img src="public/external/icon2013-ru3b.svg" alt="Icon2013" class="course-page-icon" />
+                    </button>
+                </div>
+                <img src="public/external/rectangle92014-vuwt.svg" alt="Rectangle92014" class="course-page-rectangle9" />
+                <div class="course-page-container03">
+                    <div class="course-page-sub-container">
+                        <div class="course-page-card">
+                            <span class="course-page-text06"><span>01</span></span>
+                            <span class="course-page-text08">
+                                <span>Introduction to UI/UX Design</span>
+                            </span>
+                            <div class="course-page-items-container">
+                                <div class="course-page-feature-item">
+                                    <div class="course-page-text-container">
+                                        <span class="course-page-text10">
+                                            <span>Understanding UI/UX Design Principles</span>
+                                        </span>
+                                        <span class="course-page-text12"><span>Video</span></span>
+                                    </div>
+                                    <div class="course-page-container04">
+                                        <img src="public/external/icon2011-rux8.svg" alt="Icon2011" class="course-page-icon1" />
+                                        <span class="course-page-text14">
+                                            <span>45 Minutes</span>
+                                        </span>
+                                    </div>
+                                    <img src="public/external/container2014-9tg9.svg" alt="Container2014" class="course-page-container05" />
+                                </div>
+                                <div class="course-page-feature-item01">
+                                    <div class="course-page-text-container01">
+                                        <span class="course-page-text16">
+                                            <span>Additional pdf</span>
+                                        </span>
+                                        <span class="course-page-text18"><span>PDF</span></span>
+                                    </div>
+                                </div>
+                                <div class="course-page-feature-item02">
+                                    <div class="course-page-text-container02">
+                                        <span class="course-page-text20">
+                                            <span>Introduction Quiz</span>
+                                        </span>
+                                        <span class="course-page-text22"><span>Quiz</span></span>
+                                    </div>
+                                    <div class="course-page-container06">
+                                        <img src="public/external/icon2012-ty2p.svg" alt="Icon2012" class="course-page-icon2" />
+                                        <span class="course-page-text24">
+                                            <span>10 Minutes</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="public/external/line72013-yvzm.svg" alt="Line72013" class="course-page-line7" />
+                        </div>
+                        <div class="course-page-card1">
+                            <span class="course-page-text26"><span>02</span></span>
+                            <span class="course-page-text28">
+                                <span>Introduction to UI/UX Design</span>
+                            </span>
+                            <div class="course-page-items-container1">
+                                <div class="course-page-feature-item03">
+                                    <div class="course-page-text-container03">
+                                        <span class="course-page-text30">
+                                            <span>Understanding UI/UX Design Principles</span>
+                                        </span>
+                                        <span class="course-page-text32"><span>Video</span></span>
+                                    </div>
+                                    <div class="course-page-container07">
+                                        <img src="public/external/icon2013-8llo.svg" alt="Icon2013" class="course-page-icon3" />
+                                        <span class="course-page-text34">
+                                            <span>45 Minutes</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="course-page-feature-item04">
+                                    <div class="course-page-text-container04">
+                                        <span class="course-page-text36">
+                                            <span>Wrapping Up What We’ve Learned</span>
+                                        </span>
+                                        <span class="course-page-text38"><span>PDF</span></span>
+                                    </div>
+                                </div>
+                                <div class="course-page-feature-item05">
+                                    <div class="course-page-text-container05">
+                                        <span class="course-page-text40">
+                                            <span>Introduction Quiz</span>
+                                        </span>
+                                        <span class="course-page-text42"><span>Quiz</span></span>
+                                    </div>
+                                    <div class="course-page-container08">
+                                        <img src="public/external/icon2013-kv9s.svg" alt="Icon2013" class="course-page-icon4" />
+                                        <span class="course-page-text44">
+                                            <span>10 Minutes</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="public/external/line72013-8u2o.svg" alt="Line72013" class="course-page-line71" />
+                        </div>
+                    </div>
+                    <div class="course-page-sub-container1">
+                        <div class="course-page-card2">
+                            <span class="course-page-text46"><span>03</span></span>
+                            <span class="course-page-text48">
+                                <span>Introduction to UI/UX Design</span>
+                            </span>
+                            <div class="course-page-items-container2">
+                                <div class="course-page-feature-item06">
+                                    <div class="course-page-text-container06">
+                                        <span class="course-page-text50">
+                                            <span>Understanding UI/UX Design Principles</span>
+                                        </span>
+                                        <span class="course-page-text52"><span>Video</span></span>
+                                    </div>
+                                    <div class="course-page-container09">
+                                        <img src="public/external/icon2013-xddk.svg" alt="Icon2013" class="course-page-icon5" />
+                                        <span class="course-page-text54">
+                                            <span>45 Minutes</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="course-page-feature-item07">
+                                    <div class="course-page-text-container07">
+                                        <span class="course-page-text56">
+                                            <span>Wrapping Up What We’ve Learned</span>
+                                        </span>
+                                        <span class="course-page-text58"><span>PDF</span></span>
+                                    </div>
+                                </div>
+                                <div class="course-page-feature-item08">
+                                    <div class="course-page-text-container08">
+                                        <span class="course-page-text60">
+                                            <span>Introduction Quiz</span>
+                                        </span>
+                                        <span class="course-page-text62"><span>Quiz</span></span>
+                                    </div>
+                                    <div class="course-page-container10">
+                                        <img src="public/external/icon2014-dyhw.svg" alt="Icon2014" class="course-page-icon6" />
+                                        <span class="course-page-text64">
+                                            <span>10 Minutes</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="public/external/line72014-r8ai.svg" alt="Line72014" class="course-page-line72" />
+                        </div>
+                        <div class="course-page-card3">
+                            <span class="course-page-text66"><span>04</span></span>
+                            <span class="course-page-text68">
+                                <span>Introduction to UI/UX Design</span>
+                            </span>
+                            <div class="course-page-items-container3">
+                                <div class="course-page-feature-item09">
+                                    <div class="course-page-text-container09">
+                                        <span class="course-page-text70">
+                                            <span>Understanding UI/UX Design Principles</span>
+                                        </span>
+                                        <span class="course-page-text72"><span>Video</span></span>
+                                    </div>
+                                    <div class="course-page-container11">
+                                        <img src="public/external/icon2014-1tb.svg" alt="Icon2014" class="course-page-icon7" />
+                                        <span class="course-page-text74">
+                                            <span>45 Minutes</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="course-page-feature-item10">
+                                    <div class="course-page-text-container10">
+                                        <span class="course-page-text76">
+                                            <span>Wrapping Up What We’ve Learned</span>
+                                        </span>
+                                        <span class="course-page-text78"><span>PDF</span></span>
+                                    </div>
+                                </div>
+                                <div class="course-page-feature-item11">
+                                    <div class="course-page-text-container11">
+                                        <span class="course-page-text80">
+                                            <span>Introduction Quiz</span>
+                                        </span>
+                                        <span class="course-page-text82"><span>Quiz</span></span>
+                                    </div>
+                                    <div class="course-page-container12">
+                                        <img src="public/external/icon2014-crv.svg" alt="Icon2014" class="course-page-icon8" />
+                                        <span class="course-page-text84">
+                                            <span>10 Minutes</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="public/external/line72014-cdc.svg" alt="Line72014" class="course-page-line73" />
+                        </div>
+                    </div>
+                </div>
+                <div class="course-page-group3244">
+                    <div class="course-page-group90">
+                        <div class="course-page-group4">
+                            <span class="course-page-text86"><span>Home</span></span>
+                            <span class="course-page-text88"><span>Courses</span></span>
+                            <span class="course-page-text90"><span>My page</span></span>
+                        </div>
+                        <div class="course-page-group6">
+                            <img src="public/external/rectangle52023-3pgq-200h.png" alt="Rectangle52023" class="course-page-rectangle5" />
+                            <span class="course-page-text92"><span>Sign Up</span></span>
+                        </div>
+                        <div class="course-page-group7">
+                            <img src="public/external/rectangle52023-t9mw-200h.png" alt="Rectangle52023" class="course-page-rectangle51" />
+                            <span class="course-page-text94"><span>Sign in</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

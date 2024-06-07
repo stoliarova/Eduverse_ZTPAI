@@ -1,0 +1,21 @@
+.page {
+    padding: 2rem;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item .form-check {
+    margin-right: 1rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+h5 {
+    margin-top: 1rem;
+}

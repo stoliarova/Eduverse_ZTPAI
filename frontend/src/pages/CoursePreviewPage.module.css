@@ -1,0 +1,101 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.courseInfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.courseImage {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.courseDetails {
+    flex: 1;
+}
+
+.lessonList {
+    display: flex;
+    flex-direction: column;
+}
+
+.lessonItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.lessonItem.completed {
+    background-color: #e0ffe0;
+}
+
+.lessonImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.lessonDetails {
+    flex: 1;
+}
+
+.courseInfo {
+    display: flex;
+}
+
+.courseImage {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.courseDetails {
+    flex: 1;
+}
+
+.lessonsList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lessonItem {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.lessonItem.learned {
+    background-color: #d4edda;
+}
+
+.lessonItem.completed {
+    background-color: #cce5ff;
+}
+
+.lessonImage {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.lessonDetails {
+    text-align: center;
+}

@@ -1,0 +1,1246 @@
+.course-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.course-page-course-page {
+  width: 100%;
+  height: 2698px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.course-page-container01 {
+  gap: 100px;
+  top: 92px;
+  left: -66px;
+  width: 1860px;
+  display: flex;
+  padding: 0 132px 50px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(227, 227, 231, 1);
+  border-style: solid;
+  border-width: 0 0 1px;
+}
+.course-page-text {
+  color: var(--dl-color-grey-15);
+  height: auto;
+  flex-grow: 1;
+  font-size: 48px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text02 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  flex-grow: 1;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container02 {
+  gap: 10px;
+  top: 295px;
+  left: 66px;
+  width: 1596px;
+  height: 790px;
+  display: flex;
+  padding: 100px;
+  overflow: hidden;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(247, 247, 248, 1);
+  border-style: solid;
+  border-width: 16px;
+  border-radius: 12px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/external/tq_n_gppxizij-y509-1600w.png");
+}
+.course-page-button {
+  gap: 10px;
+  display: flex;
+  padding: 14px;
+  box-sizing: content-box;
+  align-items: flex-start;
+  border-color: rgba(255, 255, 255, 0.30000001192092896);
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 68px;
+  background-color: rgba(255, 255, 255, 0.20000000298023224);
+}
+.course-page-icon {
+  width: 44px;
+  height: 44px;
+}
+.course-page-rectangle9 {
+  top: 2601px;
+  left: 144px;
+  width: 1440px;
+  height: 46px;
+  position: absolute;
+}
+.course-page-container03 {
+  gap: 30px;
+  top: 1135px;
+  left: 66px;
+  width: 1596px;
+  display: flex;
+  position: absolute;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.course-page-sub-container {
+  gap: 30px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.course-page-card {
+  gap: 50px;
+  width: 783px;
+  display: flex;
+  padding: 50px;
+  flex-grow: 1;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 12px;
+  flex-direction: column;
+  background-color: var(--dl-color-absolute-white);
+}
+.course-page-text06 {
+  color: var(--dl-color-grey-15);
+  height: auto;
+  font-size: 80px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: right;
+  font-family: Be Vietnam Pro;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text08 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-items-container {
+  gap: 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.course-page-feature-item {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 0px 0px 4px rgba(255, 244, 229, 1) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 212, 153, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: var(--dl-color-absolute-white);
+}
+.course-page-text-container {
+  gap: 6px;
+  width: 407px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text10 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text12 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container04 {
+  gap: 4px;
+  display: flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  border-radius: 6px;
+  background-color: var(--dl-color-white-97);
+}
+.course-page-icon1 {
+  width: 24px;
+  height: 24px;
+}
+.course-page-text14 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container05 {
+  width: 51px;
+  height: 47px;
+}
+.course-page-feature-item01 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container01 {
+  gap: 6px;
+  width: 623px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text16 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text18 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-feature-item02 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container02 {
+  gap: 6px;
+  width: 469px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text20 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text22 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container06 {
+  gap: 4px;
+  display: flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  border-radius: 6px;
+  background-color: var(--dl-color-white-97);
+}
+.course-page-icon2 {
+  width: 24px;
+  height: 24px;
+}
+.course-page-text24 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-line7 {
+  width: 683px;
+  height: 1px;
+}
+.course-page-card1 {
+  gap: 50px;
+  width: 783px;
+  display: flex;
+  padding: 50px;
+  flex-grow: 1;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 12px;
+  flex-direction: column;
+  background-color: var(--dl-color-absolute-white);
+}
+.course-page-text26 {
+  color: var(--dl-color-grey-15);
+  height: auto;
+  font-size: 80px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: right;
+  font-family: Be Vietnam Pro;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text28 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-items-container1 {
+  gap: 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.course-page-feature-item03 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container03 {
+  gap: 6px;
+  width: 464px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text30 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text32 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container07 {
+  gap: 4px;
+  display: flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  border-radius: 6px;
+  background-color: var(--dl-color-white-97);
+}
+.course-page-icon3 {
+  width: 24px;
+  height: 24px;
+}
+.course-page-text34 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-feature-item04 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container04 {
+  gap: 6px;
+  width: 623px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text36 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text38 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-feature-item05 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container05 {
+  gap: 6px;
+  width: 469px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text40 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text42 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container08 {
+  gap: 4px;
+  display: flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  border-radius: 6px;
+  background-color: var(--dl-color-white-97);
+}
+.course-page-icon4 {
+  width: 24px;
+  height: 24px;
+}
+.course-page-text44 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-line71 {
+  width: 683px;
+  height: 1px;
+}
+.course-page-sub-container1 {
+  gap: 30px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.course-page-card2 {
+  gap: 50px;
+  width: 783px;
+  display: flex;
+  padding: 50px;
+  flex-grow: 1;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 12px;
+  flex-direction: column;
+  background-color: var(--dl-color-absolute-white);
+}
+.course-page-text46 {
+  color: var(--dl-color-grey-15);
+  height: auto;
+  font-size: 80px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: right;
+  font-family: Be Vietnam Pro;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text48 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-items-container2 {
+  gap: 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.course-page-feature-item06 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container06 {
+  gap: 6px;
+  width: 464px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text50 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text52 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container09 {
+  gap: 4px;
+  display: flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  border-radius: 6px;
+  background-color: var(--dl-color-white-97);
+}
+.course-page-icon5 {
+  width: 24px;
+  height: 24px;
+}
+.course-page-text54 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-feature-item07 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container07 {
+  gap: 6px;
+  width: 623px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text56 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text58 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-feature-item08 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container08 {
+  gap: 6px;
+  width: 469px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text60 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text62 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container10 {
+  gap: 4px;
+  display: flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  border-radius: 6px;
+  background-color: var(--dl-color-white-97);
+}
+.course-page-icon6 {
+  width: 24px;
+  height: 24px;
+}
+.course-page-text64 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-line72 {
+  width: 683px;
+  height: 1px;
+}
+.course-page-card3 {
+  gap: 50px;
+  width: 783px;
+  display: flex;
+  padding: 50px;
+  flex-grow: 1;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 12px;
+  flex-direction: column;
+  background-color: var(--dl-color-absolute-white);
+}
+.course-page-text66 {
+  color: var(--dl-color-grey-15);
+  height: auto;
+  font-size: 80px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: right;
+  font-family: Be Vietnam Pro;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text68 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 24px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-items-container3 {
+  gap: 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.course-page-feature-item09 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container09 {
+  gap: 6px;
+  width: 464px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text70 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text72 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container11 {
+  gap: 4px;
+  display: flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  border-radius: 6px;
+  background-color: var(--dl-color-white-97);
+}
+.course-page-icon7 {
+  width: 24px;
+  height: 24px;
+}
+.course-page-text74 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-feature-item10 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container10 {
+  gap: 6px;
+  width: 623px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text76 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text78 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-feature-item11 {
+  gap: 6px;
+  display: flex;
+  padding: 24px 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(241, 241, 243, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+}
+.course-page-text-container11 {
+  gap: 6px;
+  width: 469px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.course-page-text80 {
+  color: var(--dl-color-grey-20);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 600;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text82 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-container12 {
+  gap: 4px;
+  display: flex;
+  padding: 12px 14px;
+  align-items: flex-start;
+  border-radius: 6px;
+  background-color: var(--dl-color-white-97);
+}
+.course-page-icon8 {
+  width: 24px;
+  height: 24px;
+}
+.course-page-text84 {
+  color: var(--dl-color-grey-35);
+  height: auto;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Be Vietnam Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-line73 {
+  width: 683px;
+  height: 1px;
+}
+.course-page-group3244 {
+  top: 17px;
+  left: 418px;
+  width: 963px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.course-page-group90 {
+  top: 0px;
+  left: 0px;
+  width: 963px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.course-page-group4 {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 31.179487228393555px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.course-page-text86 {
+  color: rgba(111, 136, 114, 1);
+  width: 129px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text88 {
+  left: 114px;
+  color: rgba(111, 136, 114, 1);
+  width: 129px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-text90 {
+  left: 246px;
+  color: rgba(111, 136, 114, 1);
+  width: 129px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-group6 {
+  top: 0px;
+  left: 811px;
+  width: 152px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.course-page-rectangle5 {
+  top: 0px;
+  left: 0px;
+  width: 123px;
+  height: 37px;
+  position: absolute;
+  border-color: rgba(111, 136, 114, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+}
+.course-page-text92 {
+  top: 6.820512771606445px;
+  left: 23px;
+  color: rgba(111, 136, 114, 1);
+  width: 129px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.course-page-group7 {
+  top: 0px;
+  left: 678px;
+  width: 157px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.course-page-rectangle51 {
+  top: 0px;
+  left: 0px;
+  width: 123px;
+  height: 37px;
+  position: absolute;
+  border-color: rgba(111, 136, 114, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+}
+.course-page-text94 {
+  top: 6.820512771606445px;
+  left: 28px;
+  color: rgba(255, 255, 255, 1);
+  width: 129px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Lato;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

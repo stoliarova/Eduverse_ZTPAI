@@ -1,0 +1,85 @@
+.navContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.navLeft {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navRight {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navHome,
+.navCourses,
+.navUser,
+.navAdmin,
+.navCart {
+    color: #6f8872ff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.navSignIn,
+.navSignUp {
+    border-color: #6f8872ff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    width: 90px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #6f8872ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLogout {
+    background-color: transparent;
+    border: none;
+    color: #6f8872ff;
+    cursor: pointer;
+}
+
+.navCart {
+    border-color: #6f8872ff;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #6f8872ff;
+    text-decoration: none;
+    width: 120px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #6f8872ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
